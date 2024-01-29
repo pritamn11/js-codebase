@@ -44,8 +44,6 @@ let today = new Date();
 
 
 
-
-
 console.log(typeof "Pritam"); // string
 console.log(typeof null);  // object
 console.log(typeof undefined); // undefined 
