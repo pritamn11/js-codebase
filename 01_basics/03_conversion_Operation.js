@@ -44,7 +44,7 @@ let str3 = str1 + str2
 
 // console.log(1 + "2")
 // console.log("1" + 2)
-// console.log(typeof("1" + 2))
+// console.log(typeof("1" + 2))   // string
 // console.log("1" + 2 + 2)  // 122 
 // console.log(1 + 2 + "2")  // 32
 
@@ -63,6 +63,11 @@ let x = 3;
 let y = x++;
 
 console.log(`x:${x}, y:${y}`);
+
+let a = 3;
+let b = ++a;
+
+console.log(`a:${a}, b:${b}`);
 
 /*
 If used postfix, with operator after operand (for example, x++), the increment operator increments and returns the value before incrementing.
