@@ -56,7 +56,7 @@ let str3 = str1 + str2
 
 let gameScore = 100
 ++gameScore
-// console.log(gameScore)
+// console.log(gameScore)  // 101
 
 
 let x = 3;
