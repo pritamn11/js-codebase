@@ -27,8 +27,8 @@ let booleanIsLoggedIn = Boolean(isLoggedIn)
 let someNumber = 33 
 
 let stringNumber = String(someNumber)
-// console.log(typeof stringNumber)
-// console.log(stringNumber)
+// console.log(typeof stringNumber)  // string
+// console.log(stringNumber)   // 33 
 
 
 // *********************** OPERATIONS ****************************
@@ -42,8 +42,8 @@ let str2 = " Pritam"
 let str3 = str1 + str2 
 // console.log(str3)
 
-// console.log(1 + "2")
-// console.log("1" + 2)
+// console.log(1 + "2")  // 12
+// console.log("1" + 2)   // 12
 // console.log(typeof("1" + 2))   // string
 // console.log("1" + 2 + 2)  // 122 
 // console.log(1 + 2 + "2")  // 32

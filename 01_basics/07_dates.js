@@ -32,7 +32,7 @@ let myDate = new Date()    // Date object/instance
 
 
 let newDate = new Date()
-// console.log(newDate);
+// console.log(newDate);   // currrent data and time
 // console.log(newDate.getMonth()); // 1 mean feb
 // console.log(newDate.getMonth() + 1); // 2 , i make it +1 so that end user wn't confuse
 // console.log(newDate.getFullYear());

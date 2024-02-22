@@ -52,4 +52,4 @@ const amount = 1000000
 const min = 10 
 const max = 20
 
-console.log(Math.floor(Math.random() * (max - min + 1)) + min)  // prints value from 10 - 20 range
+// console.log(Math.floor(Math.random() * (max - min + 1)) + min)  // prints value from 10 - 20 range

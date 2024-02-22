@@ -27,7 +27,7 @@ const myArr2 = new Array(1,2,3,4,b)   // inspect this
 // console.log(newArr);  // 1,2,3,4,Spider man 
 // console.log(typeof newArr); // its string 
 
-// ## Slice ,Splice 
+// #### Slice ,Splice 
 
 // The slice() method returns a shallow copy of a portion of an array 
 // into a new array. It does not modify the original array.
@@ -36,16 +36,15 @@ const myArr2 = new Array(1,2,3,4,b)   // inspect this
 
 // const myA1 = myArr2.slice(0,3)
 // console.log(myA1);    // [ 1, 2, 3 ]
-// console.log(myArr2);   // (original array remains unchanged)
+// console.log(myArr2);   // [ 1, 2, 3, 4, 'Spider man' ]
 
 
 // The splice() method changes the contents of an array by removing or replacing existing elements 
 // and/or adding new elements in place. It modifies the original array.
 
-console.log("B", myArr2);   // B [ 1, 2, 3, 4, 'Spider man' ]
-const myA2 = myArr2.splice(0,3)  // // Removes elements starting from index 0 (3 elements)
-console.log(myA2);  // Output: [1, 2, 3]
-console.log(myArr2);    // Output: [ 4, 'Spider man' ] (original array modified)
-
+// console.log("B", myArr2);   // B [ 1, 2, 3, 4, 'Spider man' ]
+// const myA2 = myArr2.splice(0,3)  // // Removes elements starting from index 0 (3 elements)
+// console.log(myA2);  // Output: [1, 2, 3]
+// console.log(myArr2);    // Output: [ 4, 'Spider man' ] (original array modified)
 
 
