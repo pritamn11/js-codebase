@@ -1,10 +1,12 @@
-// # singleton 
-// Object.create 
+// Object literals and singleton objects are two concepts related to object creation and usage in JavaScript.
 
-
+// note -  object itself contains a variety of data types, including strings, numbers, booleans, objects, arrays, and functions.
 
 // # Object literals 
-// note -  object itself contains a variety of data types, including strings, numbers, booleans, objects, arrays, and functions.
+// An object literal is a way to create and initialize an object in JavaScript using curly braces {}.
+// It allows you to define properties and methods directly within the object declaration.
+// Object literals are commonly used for creating simple, one-off objects.
+
 
 const mySym = Symbol("Unique Key 467")
 
