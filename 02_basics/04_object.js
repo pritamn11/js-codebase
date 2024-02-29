@@ -75,10 +75,15 @@ const car = {
     mileage: 25000
 };
 
-console.log(Object.keys(car));  // [ 'make', 'model', 'year', 'color', 'mileage' ] returns array 
-console.log(Object.values(car)) // [ 'Toyota', 'Glanza', 2020, 'Silver', 25000 ] 
-console.log(Object.entries(car)); // [[ 'make', 'Toyota' ],[ 'model', 'Glanza' ],[ 'color', 'Blue' ],[ 'mileage', 25000 ] ] array in array
+// console.log(Object.keys(car));  // [ 'make', 'model', 'year', 'color', 'mileage' ] returns array 
+// console.log(Object.values(car)) // [ 'Toyota', 'Glanza', 2020, 'Silver', 25000 ] 
+// console.log(Object.entries(car)); // [[ 'make', 'Toyota' ],[ 'model', 'Glanza' ],[ 'color', 'Blue' ],[ 'mileage', 25000 ] ] array in array
   
-let data = Object.values(car)
-console.log(data[2]); // Glanza
+// let data = Object.values(car)
+// console.log(data[2]); // Glanza
 
+
+// console.log(car.hasOwnProperty('mileage'));  // true
+// console.log(car.hasOwnProperty('speed'));  // false 
+
+// const obj1 = {1:'a', 2:'b'}  // to see more method inspect this 
