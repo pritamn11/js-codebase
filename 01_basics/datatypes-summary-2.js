@@ -22,9 +22,12 @@ let userTwo = {
     upi : "user2@sbibank"
 }
 
-userOne.email = "pritam@google.com"
+// let userTwo = userOne 
+
+userTwo.email = "pritam@google.com"
 
 console.log(userOne)
+console.log(userTwo)
 
 
 

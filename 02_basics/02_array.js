@@ -21,9 +21,9 @@ const animals = ["Tiger","Elephant","Monkey"]
 // const real_another_array = another_array.flat(Infinity)   // the paramete asks for depth you can give 1 ,2 or 3 depends on how may array it contains, i passed infinity 
 // console.log(real_another_array);    // [1,  2,  3,  4,  5, 6, 45, 81, 90, 11 ] 
 
-// console.log(Array.isArray("Pritam"));
-// console.log(Array.from("Pritam"));
-// console.log(Array.from({name : "Pritam"}));  // []   // intresting case for interview
+console.log(Array.isArray("Pritam"));
+console.log(Array.from("Pritam"));
+console.log(Array.from({name : "Pritam"}));  // []   // intresting case for interview
 
 let score1 = 100;
 let score2 = 200;

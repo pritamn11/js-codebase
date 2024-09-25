@@ -1,6 +1,6 @@
 const score = 400 
 // console.log(score);    // 400
-// score is a string dtype/primitive number containing the value 400.
+// score is a string number primitive containing the value 400.
 
 
 const balance = new Number(100)        // >> Inspect element in console
@@ -46,7 +46,7 @@ const amount = 1000000
 // console.log(Math.max(6,2,9,7));  // 9
 
 // console.log(Math.random());   // give random values bw 0 to 1 
-// console.log((Math.random() * 10) + 1);   
+// console.log((Math.random() * 10) + 1);    
 // console.log(Math.floor(Math.random() * 10) + 1);   
 
 const min = 10 

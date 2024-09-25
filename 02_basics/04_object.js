@@ -6,6 +6,7 @@ instaUser.id = "123abc"
 instaUser.name = "Pritam"
 instaUser.address = "Mumbai"
 
+console.log(instaUser)
 
 const regularUser = {
     email : 'pritam@chatgpt.com',

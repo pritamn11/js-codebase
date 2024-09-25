@@ -25,7 +25,7 @@ const userDetail = {
       },
     hobbies: ["reading", "traveling", "cooking"],    // Array property
 
-    sayHello: function() {
+    sayHello: function() {            // yaha par this ko current context bolte hai, matlab is scope me jitne bhi variables hai unko access karne k lie me this laga dunga, this current context ko refer karta hai
         console.log("Hello! My name is " + this.name + ".");    // Function to log a greeting message
       }
 };
